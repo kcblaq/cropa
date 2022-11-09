@@ -1,0 +1,9 @@
+const dotenv = require('dotenv');
+dotenv.config()
+const PORT = process.env.PORT || 3001;
+
+export const config = {
+    server: {
+        port: PORT
+    }
+}
