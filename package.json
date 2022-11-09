@@ -10,6 +10,9 @@
     "delete": "rmdir dist /s /q",
     "postinstall": "tsc"
   },
+  "engines": {
+    "node": "16.x"
+  },
   "author": "",
   "license": "ISC",
   "dependencies": {
